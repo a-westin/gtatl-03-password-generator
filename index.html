@@ -16,7 +16,33 @@
         <div class="card-header">
           <h2>Generate a Password</h2>
         </div>
+        <h3>
+          Please choose the length of your password (must be a number between
+          8-128)
+        </h3>
+        <label>Length :</label>
+        <input type="number" maxlength="128" value="8" id="length" />
         <div class="card-body">
+          <div class="checks">
+            <h3>
+              Please check the following boxes if you would like your password
+              to contain:
+            </h3>
+            <label class="label">Uppercase letters:</label>
+            <input type="checkbox" id="upper" /><br />
+          </div>
+          <div class="checks">
+            <label class="label">Lowercase letters:</label>
+            <input type="checkbox" id="lower" /><br />
+          </div>
+          <div class="checks">
+            <label class="label">Numbers:</label>
+            <input type="checkbox" id="number" /><br />
+          </div>
+          <div class="checks">
+            <label class="label">Special characters:</label>
+            <input type="checkbox" id="symbol" /><br /><br />
+          </div>
           <textarea
             readonly
             id="password"
