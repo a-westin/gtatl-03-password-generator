@@ -11,9 +11,12 @@ function writePassword() {
 
 // Defining varibles
 var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+uppercase = uppercase.split("");
 var lowercase = "abcdefghijklmnopqrstuvwxyz";
+lowercase = lowercase.split("");
 var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 var symbols = "`~!@#$%^&*()-_=+[]{}|;:',.<>/?";
+symbols = symbols.split("");
 var passwordCombination = [];
 var password = "";
 
@@ -74,7 +77,7 @@ function generatePassword() {
       }
     }
   }
-  // Write password to the "your secure password" box!
+  // Write password to the "your secure password" box
   return password;
 }
 // Add event listener to generate button
