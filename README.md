@@ -12,7 +12,22 @@ Users can create a secure, randomly generated password based on their preference
 
 Any combination of the parameters may be chosen and the password must also be between 8-128 characters; if users attempt to skip this step, or enter an unaccepted number, it will cause the page to reload and they will need to begin the process again. Similarly, if the user does not select at least one parameter, the page will reload. 
 
-![Screen Shot 2020-08-27 at 11 11 19 PM](https://user-images.githubusercontent.com/69770137/91517546-f844ac80-e8bb-11ea-8748-f8469bbd3758.png)
+![Screen Shot 2020-09-27 at 8 26 05 PM](https://user-images.githubusercontent.com/69770137/94379859-f1020000-0100-11eb-9c63-723a154e32b1.png)
+
+![Screen Shot 2020-09-27 at 8 26 29 PM](https://user-images.githubusercontent.com/69770137/94379865-f65f4a80-0100-11eb-8e8d-30cf03d119c3.png)
+
+![Screen Shot 2020-09-27 at 8 27 01 PM](https://user-images.githubusercontent.com/69770137/94379867-f9f2d180-0100-11eb-9b38-79457ec5de36.png)
+
+![Screen Shot 2020-09-27 at 8 27 20 PM](https://user-images.githubusercontent.com/69770137/94379871-feb78580-0100-11eb-8b0b-9d0e533e5229.png)
+
+![Screen Shot 2020-09-27 at 8 27 34 PM](https://user-images.githubusercontent.com/69770137/94379878-0a0ab100-0101-11eb-9b9e-6f15d915d2e5.png)
+
+![Screen Shot 2020-09-27 at 8 27 47 PM](https://user-images.githubusercontent.com/69770137/94379879-0d05a180-0101-11eb-8273-72aeb1a224bc.png)
+
+![Screen Shot 2020-09-27 at 8 27 58 PM](https://user-images.githubusercontent.com/69770137/94379883-1262ec00-0101-11eb-8d4b-7a5aebe5bb1c.png)
+
+
+
 
 #### Credits
 In order to get the strings of variables to concatenate properly, I had to look into the .split method, found [here.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) 
