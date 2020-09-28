@@ -1,7 +1,7 @@
 # Password Generator 
 
 ## Installation
-No installation is necessary; view the deployed application by clicking on this [link.](https://https://a-westin.github.io/gtatl-03-password-generator/)
+No installation is necessary; view the deployed application by clicking on this [link.](https://a-westin.github.io/gtatl-03-password-generator/)
 
 ## Usage
 Users can create a secure, randomly generated password based on their preferences for the following:
